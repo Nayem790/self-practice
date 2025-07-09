@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css table</title>
+    <style>
+         table{border: 2px solid black;
+               border-collapse: collapse;
+               width: 100%;
+         }
+         th,td{border: 2px solid black;
+               padding: 5px;
+         }
+         tr:nth-child(even){background-color: rgb(136, 144, 145);}
+         tr:nth-child(odd){background-color: rgb(78, 135, 143);}
+
+         th{background-color: rgb(160, 116, 202);
+            color: white;
+            height: 30px;
+        }
+        tr:hover{background-color: beige;}
+    </style>
+
+</head>
+<body>
+    <table>
+        <caption>student details</caption>
+        <tr>
+            <th>name</th>
+            <th>id</th>
+            <th>gpa</th>
+            <th>phone</th>
+            <th>bio</th>
+        </tr>
+
+        <tr>
+            <td>Rashed</td>
+            <td>101</td>
+            <td>3.89</td>
+            <td>014579</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet maiores nesciunt dolorem at minima, adipisci commodi libero excepturi corporis quaerat!</td>
+        </tr>
+
+        <tr>
+            <td>abraham</td>
+            <td>103</td>
+            <td>3.99</td>
+            <td>014573</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet maiores nesciunt dolorem at minima, adipisci commodi libero excepturi corporis quaerat!</td>
+        </tr>
+
+        <tr>
+            <td>linkon</td>
+            <td>104</td>
+            <td>3.59</td>
+            <td>014573</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet maiores nesciunt dolorem at minima, adipisci commodi libero excepturi corporis quaerat!</td>
+        </tr>
+
+        <tr>
+            <td>hitlar</td>
+            <td>106</td>
+            <td>5.89</td>
+            <td>0145722</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet maiores nesciunt dolorem at minima, adipisci commodi libero excepturi corporis quaerat!</td>
+        </tr>
+
+        <tr>
+            <td>fahad</td>
+            <td>107</td>
+            <td>4.89</td>
+            <td>014573</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet maiores nesciunt dolorem at minima, adipisci commodi libero excepturi corporis quaerat!</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

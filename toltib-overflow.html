@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toltib-overflow</title>
+    <style>
+        div{
+            width: 250px;
+            height:100px;
+            background-color: antiquewhite;
+            border: solid black 1px;
+            overflow: auto;
+        }
+        .links{position: relative;}
+      .spant{visibility: hidden;
+               width: 150px;     
+               height: 30px;
+               background-color: rgb(127, 88, 164);
+               color: white;
+               padding: 5px;
+               position:absolute;
+               left: 30px;
+               top:30px;
+               z-index: 1;
+
+ 
+        }
+        .links:hover.spant{visibility:visible;}
+
+        }
+       
+        }
+    </style>
+</head>
+<body>
+    <a href="#" class="links">facebook
+    <span class="spant">fb is a social platform</span>
+    </a>
+    <p></p>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat rem suscipit nostrum magnam doloremque, facere omnis tempora quis quidem, aut possimus et assumenda. Fugit corrupti cum et animi doloremque pariatur natus maiores aliquid, numquam maxime deleniti consectetur odio, dolores facere possimus cupiditate porro. Aut, cum placeat tempora porro ex nisi.</div>
+     <br>
+</body>
+
+</html>

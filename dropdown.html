@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdowm menu</title>
+
+    <style>
+       .navbar{background-color: rgb(58, 74, 88);
+               padding: 1% 7%;
+               text-align: center;
+       }
+
+       .navbar a{color: aliceblue;
+                 text-decoration: none;
+                 font-size: 1.2rem;
+                 padding: 10px 20px;
+                 cursor: pointer;
+       }
+       .container{display: inline;
+                  position: relative;
+       }
+       .content a{display: block;
+
+       }
+       .content{position: absolute;
+               top: 30px;
+               right: 0px;
+               background-color: rgb(13, 116, 81);
+               text-align: left;
+               min-width: 100px;
+               display: none;
+
+       }
+       .container:hover .content{display: block;
+    }
+    .content a:hover{background-color: rgb(57, 43, 70);}
+    </style>
+</head>
+<body>
+  <div class="navbar">
+        <a href="#">hom</a>
+        <a href="#">tutorial</a>
+    <div class="container">
+        <a href="#">contact me</a>
+    <div class="content">
+        <a href="#">facebook</a>
+        <a href="#">email</a>
+    </div>
+    </div> 
+       <a href="#">about</a>
+ </div>
+</body>
+</html>

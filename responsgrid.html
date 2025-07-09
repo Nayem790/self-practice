@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resposgrid</title>
+    <style>
+        *{box-sizing: border-box;}
+        .header{background-color: rgb(129, 71, 183);
+                text-align: center;  
+                padding: 1% 5%;    
+                color: white;
+        }
+        .navbar a{background-color: rgb(83, 189, 154);
+                text-decoration: none; 
+                font-size: 1.2rem;
+                padding: 10px;       
+                display: block;
+        }
+        .main{background-color: rgb(90, 245, 245);
+              padding: 1% 5%;
+        }
+        .asid{background-color: aquamarine;
+              padding: 1% 5%;        
+              text-align: center;
+        }
+        .footer{background-color: black;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                font-size: 0.8rem;
+        }
+
+        /*for desctop*/
+        .col-1{width: 8.33%;}
+        .col-2{width: 16.55%;}
+        .col-3{width: 25%;}
+        .col-4{width: 33.33%;}
+        .col-5{width: 41.66%;}
+        .col-6{width: 50%;}
+        .col-7{width: 58.33%;}
+        .col-8{width: 66.66%;}
+        .col-9{width: 75%;}
+        .col-10{width: 83.33%;}
+        .col-11{width: 91.66%;}
+        .col-12{width: 100%;}
+
+        [class*="col-"]{float: left;
+                        padding: 10px;
+        }
+        .row::after{content:'';
+                    clear: both;
+                    display:table;
+    }
+     @media screen and (max-width:768px){[class*="col-"]{width:100%;}
+        
+     .navbar a{background-color: rgb(83, 189, 154);
+                text-decoration: none; 
+                margin: 10px;   
+               }    
+    
+    
+            }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Nayem Islam</h1>
+    </div>
+    <div class="row">
+        <div class="navbar col-2">
+            <a href="#">Home</a>
+            <a href="#">Tutorial</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="main col-7">
+            <h1>I am a web designer</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum culpa voluptate recusandae officiis facere deserunt.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos nostrum aspernatur delectus cumque illum iure quae deserunt nihil ullam voluptatem.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus voluptates numquam sunt nam veniam quibusdam dolorem voluptas cupiditate ex, impedit dolorum distinctio dolores laborum praesentium eveniet culpa rerum atque aliquam tenetur nostrum! Totam labore quia necessitatibus illum commodi voluptatum natus molestiae, maxime laudantium libero est consequatur, ab dicta quos accusantium!</p> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolor quis velit possimus inventore aut, fuga beatae modi! Reiciendis, praesentium!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quam non error, unde ut nisi omnis at doloribus dignissimos excepturi fuga accusantium suscipit. Fuga eligendi, delectus, dolor similique tenetur debitis molestias nam rem, corporis voluptas perferendis laudantium magnam maiores nihil. Dolorum doloribus ea sint velit eligendi dignissimos similique voluptate quis.</p>
+        </div>
+        <div class="asid col-3">
+           <h2>What i love?</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, error!</p>
+           <h2>what i do?</h2>       
+           <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+           <h2>What i don't love?</h2>      
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+           <h2>What i don't do?</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, similique.</p>
+        </div>
+        
+    </div>
+    <div class="footer">
+        &copy; study with anis.Developed by Nayem Islam 
+    </div>
+    
+</body>
+</html>
